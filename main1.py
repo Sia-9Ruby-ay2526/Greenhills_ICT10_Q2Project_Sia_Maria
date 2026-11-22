@@ -43,3 +43,8 @@ def generate_nickname (e):
     display(Nickname_10, target="result")
     display(Nickname_11, target="result")
 
+from pyscript import display, document
+
+def go_to_project(e):
+    document.getElementById('project_link').click()
+
