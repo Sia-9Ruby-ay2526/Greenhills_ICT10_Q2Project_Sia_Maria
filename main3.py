@@ -22,3 +22,8 @@ def get_name(e):
     display_message = (f"Here are the total no. of members.")
 
     display(display_message, target="output")
+
+from pyscript import display, document
+
+def go_to_project(e):
+    document.getElementById('project_link').click()
