@@ -1,4 +1,3 @@
-
 # Working with Dictionaries
 from pyscript import display, document
 
@@ -38,4 +37,7 @@ def element_details(e):
     display(f"Atomic Number: {atomic_number.get(nonmental_elements)}", target='result')
     display(f"Element Symbol: {element_symbol.get(nonmental_elements)}", target='result')
 
+from pyscript import display, document
 
+def go_to_project(e):
+    document.getElementById('project_link').click()
